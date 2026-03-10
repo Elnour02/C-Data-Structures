@@ -1,6 +1,8 @@
 #ifndef STACK_H_
 #define STACK_H_
 
+#include <limits.h>
+
 struct Stack {
     int* data;
     int size;
